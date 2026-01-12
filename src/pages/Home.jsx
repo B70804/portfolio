@@ -1,10 +1,12 @@
-function Home() {
+import profilePic from '../assets/profile-pic.jpeg';
+
+export default function Home() {
   return (
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-blue-50/50 to-purple-50/50 dark:from-blue-950/20 dark:to-purple-950/20"></div>
       <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center z-10">
         <img
-          src={"/src/assets/profile-pic.jpg"}
+          src={profilePic}
           alt="Profile Picture"
           className="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-white shadow-lg"
         ></img>
@@ -42,5 +44,3 @@ function Home() {
     </section>
   );
 }
-
-export default Home;

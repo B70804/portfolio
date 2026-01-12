@@ -1,3 +1,5 @@
+import studyPlacePic from '../assets/study-place.jpg';
+
 export default function About() {
   return (
     <section className="bg-slate-100/30 dark:bg-slate-800/30 py-20">
@@ -13,7 +15,7 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <img
-              src={"/src/assets/study-place.jpg"}
+              src={studyPlacePic}
               alt="Study Place"
               className="rounded-lg shadow-lg w-full h-full object-cover"
             ></img>
